@@ -19,7 +19,7 @@ btn_toggle.onclick = () => {
     let x = length.value
     let code = parseInt(author.innerText.split(" ")[0])
     console.log(code + x)
-    author.innerText = code + x
+    author.innerText = code - x
     btn_toggle.innerText = "Display Author"
     toggle = true
   }
